@@ -1,20 +1,20 @@
 .note-container {
   padding: 10px;
   margin: 20px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 18px;
 }
 
 .note-title {
-  color: #333;
+  color: rgb(32, 32, 32);
 }
 
 .note-content {
-  color: #666;
+  color: rgb(105, 105, 105);
 }
 
 .note-date {
-  color: #999;
+  color: #7f1010;
   font-size: 0.8rem;
 }
 
