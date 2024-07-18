@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <div>
       <h1 className="notes-title">Notepad</h1>
-      <p className="notes-description">Organiztion Made Easy...</p>
+      <p className="notes-description">Organization Made Easy...</p>
     </div>
   );
 }

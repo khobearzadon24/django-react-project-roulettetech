@@ -48,7 +48,7 @@ function Home() {
 
   return (
     <div>
-      <h2>Create a Note</h2>
+      <h2>Write your note here</h2>
       <form onSubmit={createNote}>
         <label htmlFor="title">Title:</label>
         <br />
@@ -60,7 +60,7 @@ function Home() {
           onChange={(e) => setTitle(e.target.value)}
           value={title}
         />
-        <label htmlFor="content">Content:</label>
+        <label htmlFor="content">Details:</label>
         <br />
         <textarea
           id="content"
@@ -73,7 +73,8 @@ function Home() {
         <input type="submit" value="Submit"></input>
       </form>
       <div>
-        <h2>Notes</h2>
+        <h2>My Notes</h2>
+
         {notes.map((note) => (
           <Note note={note} onDelete={deleteNote} key={note.id} />
         ))}
